@@ -1,0 +1,111 @@
+.sec3{
+    background-image: url(https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-2copy-2.jpg?id=642);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    .comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        h2{
+            font-size: 54px;
+            color: #3f3849;
+            width: 30%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        img{
+            border-radius: 50%;
+            border: 4px solid purple;
+        }
+        p{
+            width: 45%;
+            color: gray;
+            text-align: center;
+            font-size: 18px;
+        }
+        span{
+            color: #7d1eff;
+            font-weight: bolder;
+            font-size: 32px;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px){
+
+    .sec3{
+        background-image: url(https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-2copy-2.jpg?id=642);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .comments{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            h2{
+                font-size: 24px;
+                color: #3f3849;
+                width: 30%;
+                text-align: center;
+                font-weight: bolder;
+            }
+            img{
+                border-radius: 50%;
+                border: 4px solid purple;
+            }
+            p{
+                width: 100%;
+                color: gray;
+                text-align: center;
+                font-size: 12px;
+            }
+            span{
+                color: #7d1eff;
+                font-weight: bolder;
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 330px){
+
+    .sec3{
+        background-image: url(https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-2copy-2.jpg?id=642);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .comments{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            h2{
+                font-size: 24px;
+                color: #3f3849;
+                width: 30%;
+                text-align: center;
+                font-weight: bolder;
+            }
+            img{
+                border-radius: 50%;
+                border: 4px solid purple;
+            }
+            p{
+                width: 100%;
+                color: gray;
+                text-align: center;
+                font-size: 12px;
+            }
+            span{
+                color: #7d1eff;
+                font-weight: bolder;
+                font-size: 14px;
+            }
+        }
+    }
+
+}

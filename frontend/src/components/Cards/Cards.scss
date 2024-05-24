@@ -1,0 +1,185 @@
+.watches{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #545454;
+    span{
+        color: gray;
+    }
+    h2{
+        color: white;
+        font-size: 44px;
+        width: 35%;
+        text-align: center;
+    }
+    #see{
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: white;
+    }
+    .cards{
+        
+        .card{
+            box-sizing: border-box;
+            img{
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            span{
+                position: absolute;
+                top: 100px;
+                font-size: 34px;
+                left: 120px;
+                color: rgb(208, 208, 208);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h5{position: absolute;
+                top: 180px;
+                right: 210px;
+                position: absolute;
+                color: white;
+            }
+            button{
+                border: none;
+                border-radius: 10px;
+                padding: 10px 20px;
+                background-color: rgb(184, 0, 184);
+                font-size: 24px;
+                color: white;
+                margin-top: 20px;
+                transition: 0.3s;
+                &:hover{
+                    background-color: rgb(255, 147, 255);
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+            .del{
+                border: none;
+
+            }
+            .brand{
+                color: white;
+                font-size: 24px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: 40px;
+                z-index: 100;
+            }
+            border: none !important;
+            background: transparent;
+        }
+        width: 100%;
+        display: flex;
+    }
+}
+
+select{
+    background-color: yellow;
+    color: black;
+    font-size: 24px;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 769px){
+    .watches{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #545454;
+        span{
+            color: gray;
+            font-size: 14px;
+        }
+        h2{
+            color: white;
+            font-size: 14px;
+            width: 35%;
+            text-align: center;
+        }
+        #see{
+            background: transparent;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 5px 10px;
+            color: white;
+        }
+        .cards{display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+            .card{
+                width: 90% !important;
+                box-sizing: border-box;
+                img{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                }
+                span{
+                    position: absolute;
+                    top: 40px;
+                    font-size: 12px;
+                    left: 40px;
+                    color: rgb(208, 208, 208);
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+                h5{position: absolute;
+                    top: 50px;
+                    font-size: 14px;
+                    right: 60px;
+                    position: absolute;
+                    color: rgb(0, 0, 0);
+                }
+                button{
+                    border: none;
+                    border-radius: 10px;
+                    padding: 5px 5px;
+                    background-color: rgb(184, 0, 184);
+                    font-size: 12px;
+                    color: white;
+                    margin-top: 10px;
+                    transition: 0.3s;
+                    &:hover{
+                        background-color: rgb(255, 147, 255);
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+                
+                .brand{
+                    color: white;
+                    font-size: 12px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    z-index: 100;
+                }
+                border: none !important;
+                background: transparent;
+            }
+            width: 100%;
+            display: flex;
+        }
+    }
+    
+    select{
+        background-color: yellow;
+        color: black;
+        font-size: 12px;
+        border: none;
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+}
